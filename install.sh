@@ -1,18 +1,13 @@
 #!/bin/bash
-#
-#   Dante Socks5 Server AutoInstall
-#   -- Owner:       https://www.inet.no/dante
-#   -- Provider:    https://sockd.info
-#   -- Author:      Lozy
-#
 
-# Check if user is root
+
+
 if [ $(id -u) != "0" ]; then
     echo "Error: You must be root to run this script, please use root to install"
     exit 1
 fi
 
-REQUEST_SERVER="https://raw.github.com/Lozy/danted/master"
+REQUEST_SERVER="https://raw.github.com/steamsv/danted/master"
 SCRIPT_SERVER="https://public.sockd.info"
 SYSTEM_RECOGNIZE=""
 

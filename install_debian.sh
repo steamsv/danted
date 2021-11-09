@@ -1,7 +1,5 @@
 #!/bin/bash
-#
-# Provides:          sockd.info (Lozy)
-#
+
 
 VERSION="1.3.2"
 INSTALL_FROM="compile"
